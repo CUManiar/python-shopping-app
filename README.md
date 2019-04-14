@@ -9,7 +9,7 @@
 #create django project
  - django-admin startproject <project_name>
  
-#run projct reaching project dir
+#run project(Don't forget to go to project directory!!!)
  - python manage.py runserver
  
 #add a app
