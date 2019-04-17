@@ -3,7 +3,7 @@
 ## Basic steps and commands for reference:
 
 #install django
- - pip install django == <version>
+ - pip install django == python_version
  
  
 #create django project
