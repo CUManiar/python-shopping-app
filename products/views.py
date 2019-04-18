@@ -9,5 +9,5 @@ def index(request):
         {'products': products})
 
 
-def new(request):
-    return HttpResponse("Its Chirag's Page!!")
+def home(request):
+    return render(request, 'home.html')

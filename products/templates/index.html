@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block products %}
+<link rel="stylesheet" href="{% static 'css/products.css' %}">
 <h1>Products</h1>
 <div class="row">
     {% for product in products %}
